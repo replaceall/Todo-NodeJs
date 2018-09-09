@@ -1,0 +1,21 @@
+{
+  "name": "todo_list",
+  "version": "1.0.0",
+  "description": "asd",
+  "main": "index.js",
+  "scripts": {
+    "test": "asd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "asd"
+  },
+  "keywords": [
+    "asd"
+  ],
+  "author": "asd",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2"
+  }
+}

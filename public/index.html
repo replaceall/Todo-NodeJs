@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TOdo App</title>
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1> My Todos</h1>
+<!--<button value="Get Todos" onclick="getTodoAJAX()"> Get Todos</button> -->
+ <div id="todos_list_div">
+
+ </div>
+ <h4>ADD TODO</h4>
+ <input type="text" id="new_todo_input" placeholder="ToDo title Goes Here">
+ <button id="add" onclick="addtodoAJAX()">Add</button>
+
+ <div id="underline"></div>
+ <span id="header"><b>Completed Todos</b></span><span id="hide_complete" onclick="change_hidden_status('to_complete')">Hide Complete</span>
+ <div id="to_complete"></div>
+ <div id="underline"></div>
+ <span id="header"><b>Deleted Todos</b></span><span id="hide_delete" onclick="change_hidden_status('to_delete')">Hide Delete</span>
+ <div id="to_delete"></div>
+ <div id="underline"></div>
+
+
+</body>
+
+</html>

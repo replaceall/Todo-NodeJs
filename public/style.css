@@ -1,0 +1,74 @@
+h1{
+    background-color: darkolivegreen;
+    text-align: center;
+
+}
+h4{
+    color: #bdc1c9;  }
+#header{
+
+    padding-bottom: 100px;
+
+}
+#hide_complete,#hide_delete{
+    position: absolute;
+    left: 400px;
+    color: blue;
+    text-decoration: underline;
+}
+
+#underline{
+    border-bottom: solid 2px black;
+    padding-bottom: 30px;
+}
+.breathHorizontal{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.breathVertical{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+div.todoStatus_ACTIVE{
+    color: blue;
+}
+
+div.todoStatus_COMPLETE{
+    color : green;
+    text-decoration: line-through;
+}
+div.todoStatus_DELETED{
+    color:red;
+    text-decoration: line-through;
+
+}
+#fixed
+{
+    color: red;
+    left: 320px;
+    border-color: white;
+    background-color: white;
+    position: absolute  ;
+
+}
+#complete_button{
+    position: absolute;
+    left: 250px;
+
+}
+#to_complete,#to_delete{
+    margin-left: 40px;
+}
+#todos_list_div{
+    margin-left: 40px;
+}
+
+#new_todo_input{
+    border-color: whitesmoke;
+    border-left-color: whitesmoke;
+    border-top-color: whitesmoke}
+#add{
+    background-color: #7f9ac6;
+}
